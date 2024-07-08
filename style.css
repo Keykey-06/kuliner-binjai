@@ -1,0 +1,104 @@
+
+ nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: yellow;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+ nav .logo {
+    width: 80px;
+    cursor: pointer;
+    margin: 7px 0;
+}
+
+ nav ul{
+    list-style: none;
+}
+
+ nav ul li{
+    display: inline-block;
+    margin: 0 50px;
+}
+
+ nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500px;
+    font-size: 20px;
+    transition: 0.1s;
+}
+ nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #ff3d2f;
+    display: block;
+    transition: 0.2s linear;
+}
+
+ nav ul li a:hover::after{
+    width: auto;
+}
+
+ nav ul li a:hover {
+    color: #fa4646;
+}
+
+ nav i{
+    font-size: 18px;
+    color: #000;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+ .text1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 120px;
+}
+
+ .text1 h1{
+    font-size: 60px;
+    position: relative;
+    top: -90px;
+    left: 20px;
+}
+
+ .text1 h1 span {
+    margin-left: 10px;
+    color: #fa3131;
+    font-family: mv boli;
+    line-height: 20px;
+    font-size: 60px;
+}
+.text2 i{
+    margin-left: 10px;  
+}
+.PM{
+    background-color: #fdb29b;
+    color: #000000;
+    border-radius: 100px;
+    padding: 10opx;
+    margin: 100px;
+    width: 12%;
+}
+h2 span {
+    margin-left: 10px;
+    color: #f07474;
+    line-height: 20px;
+    font-size: 50px;
+}
+.text3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 120px;
+}
+h4{
+    color: #fa3131;
+}
