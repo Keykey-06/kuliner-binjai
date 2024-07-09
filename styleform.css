@@ -1,0 +1,57 @@
+a{
+    background-color: #0b003a;
+    text-decoration: none;
+    color: #f4f6f7;
+    padding: 5px;
+    border-radius: 5px;
+}
+a:hover{
+    color: black;
+    background-color: white;
+}
+.datadiri,.datadiriorangtua,.datadiriwali{
+    background-color: #baecf0;
+    color: #538e92;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 8px;
+    width: 100%;
+}
+.gelombang1{
+    background-color: #02b7c4;
+    color: #f8fbfc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 8%;
+}
+.perhatikan{
+    background-color: #baecf0;
+    color: #538e92;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 8px;
+    width: 95%;
+}
+.banner{
+    background-color: #0b003a;
+    color: #f4f6f7;
+    border-radius: 5px;
+    border: 10px;
+    padding: 8px;
+    margin: 8px;
+    width: 100%;
+}
+input[type="text"],[type="number"]{
+    border: 1px solid rgb(168, 166, 166);
+    padding: 8px;
+    border-radius: 6px;
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: #0b003a;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
